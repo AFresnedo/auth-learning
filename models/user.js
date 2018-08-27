@@ -29,6 +29,8 @@ module.exports = (sequelize, DataTypes) => {
         }
       }
     },
+    facebookId: DataTypes.STRING,
+    facebookToken: DataTypes.STRING,
     admin: DataTypes.BOOLEAN
   }, {
     hooks: {
